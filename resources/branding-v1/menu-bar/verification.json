@@ -1,0 +1,32 @@
+{
+  "all_rgb_zero_including_transparent_pixels" : true,
+  "alpha_range_every_png" : [
+    0,
+    255
+  ],
+  "angles_degrees" : [
+    100,
+    87.5,
+    75,
+    62.5,
+    50,
+    37.5,
+    25,
+    12.5,
+    0
+  ],
+  "dimensions_verified" : true,
+  "fixed_base_master_centerline" : [
+    147,
+    386,
+    411,
+    386
+  ],
+  "fixed_base_opaque_in_all_master_frames" : true,
+  "method" : "Native NSBitmapImageRep full pixel inspection and sprite row memcmp",
+  "preview_contact_sheet_visually_reviewed" : true,
+  "production_png_count" : 28,
+  "renderer_compiles_with_generator" : true,
+  "result" : "PASS",
+  "sprite_slices_byte_identical_to_frames" : true
+}
