@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F41D8D9913A3E5E432C476 /* FoldawayCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7444C63A9C2EC85B15BF3573 /* FoldawayCore */; };
+		21959CE1D59B77ECC04EABBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C48964D7CA9F050EA8A4B0 /* Assets.xcassets */; };
+		646847D32F387EB1142971BB /* FoldOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBA38C3E21CBEB1B9B00FE /* FoldOverlayWindow.swift */; };
+		9BEBB7293DC56A2CB136360C /* FoldawayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88620221A8832EB7995147 /* FoldawayApp.swift */; };
+		A0E9229D25A331C255339A4B /* LidAngleSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D212A70DB40C73F4F99C9 /* LidAngleSensor.swift */; };
+		C1038EB07BC758E94B933CC1 /* FoldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D1B033EA05315B6B0210F /* FoldController.swift */; };
+		CCD5BC19DA75D20DD165F0D0 /* FoldLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDCE910F631DC5DCB32AA2E /* FoldLayer.swift */; };
+		D9532DF3E9565EE7F216125E /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB64CAF0E96284DD6FD161 /* StatusMenuController.swift */; };
+		DFFFF8FFBFFDA7F5810EB348 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B22C1B8C48F772B9A3DE4891 /* Localizable.xcstrings */; };
+		E173EE137829F49DB331404B /* SliderMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996E262C55EB848F4CF992E /* SliderMenuItem.swift */; };
+		F6BD3C27D339DE80EF273D8A /* FoldMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B39ABE0EA15BA3A3E9D5BA /* FoldMask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BDCE910F631DC5DCB32AA2E /* FoldLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldLayer.swift; sourceTree = "<group>"; };
+		34DBB05582055ACE77187696 /* Foldaway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foldaway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6D1B033EA05315B6B0210F /* FoldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldController.swift; sourceTree = "<group>"; };
+		41EBA38C3E21CBEB1B9B00FE /* FoldOverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldOverlayWindow.swift; sourceTree = "<group>"; };
+		4432237B9D07781B6EA4DA4E /* FoldawayCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FoldawayCore; path = FoldawayCore; sourceTree = SOURCE_ROOT; };
+		66ADDEFAA7B4893FDE6F9E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F88620221A8832EB7995147 /* FoldawayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldawayApp.swift; sourceTree = "<group>"; };
+		A1B39ABE0EA15BA3A3E9D5BA /* FoldMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldMask.swift; sourceTree = "<group>"; };
+		B22C1B8C48F772B9A3DE4891 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		BD5D212A70DB40C73F4F99C9 /* LidAngleSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidAngleSensor.swift; sourceTree = "<group>"; };
+		C1C48964D7CA9F050EA8A4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0FB64CAF0E96284DD6FD161 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		F996E262C55EB848F4CF992E /* SliderMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenuItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78483D6131EB8C292D24C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F41D8D9913A3E5E432C476 /* FoldawayCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0F576FA4564CADA0B43B94 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D212A70DB40C73F4F99C9 /* LidAngleSensor.swift */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		56F7239AAB466D936C5BBED7 /* Foldaway */ = {
+			isa = PBXGroup;
+			children = (
+				C1C48964D7CA9F050EA8A4B0 /* Assets.xcassets */,
+				7F88620221A8832EB7995147 /* FoldawayApp.swift */,
+				66ADDEFAA7B4893FDE6F9E7A /* Info.plist */,
+				C85550C7243E9D22D4DE82E3 /* Render */,
+				9B24CB0C09F6FA8F2E5A7E9C /* Resources */,
+				4A0F576FA4564CADA0B43B94 /* Sensor */,
+				DDF34AD4C95F4D658D56387B /* UI */,
+			);
+			path = Foldaway;
+			sourceTree = "<group>";
+		};
+		599F0C9FC387E745F90C33C0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4432237B9D07781B6EA4DA4E /* FoldawayCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		9B24CB0C09F6FA8F2E5A7E9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B22C1B8C48F772B9A3DE4891 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A061ADDCB385EC3352D27471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DBB05582055ACE77187696 /* Foldaway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53694D421CFBE9317DC6CFB = {
+			isa = PBXGroup;
+			children = (
+				56F7239AAB466D936C5BBED7 /* Foldaway */,
+				599F0C9FC387E745F90C33C0 /* Packages */,
+				A061ADDCB385EC3352D27471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C85550C7243E9D22D4DE82E3 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				3E6D1B033EA05315B6B0210F /* FoldController.swift */,
+				1BDCE910F631DC5DCB32AA2E /* FoldLayer.swift */,
+				A1B39ABE0EA15BA3A3E9D5BA /* FoldMask.swift */,
+				41EBA38C3E21CBEB1B9B00FE /* FoldOverlayWindow.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		DDF34AD4C95F4D658D56387B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F996E262C55EB848F4CF992E /* SliderMenuItem.swift */,
+				E0FB64CAF0E96284DD6FD161 /* StatusMenuController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE22047AB34E459651E41AB /* Foldaway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7214812641075F646099AB /* Build configuration list for PBXNativeTarget "Foldaway" */;
+			buildPhases = (
+				0D3B1B858CE10941CEB03789 /* Sources */,
+				A778B83F22A04619B531A57E /* Resources */,
+				F78483D6131EB8C292D24C67 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foldaway;
+			packageProductDependencies = (
+				7444C63A9C2EC85B15BF3573 /* FoldawayCore */,
+			);
+			productName = Foldaway;
+			productReference = 34DBB05582055ACE77187696 /* Foldaway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB02EB77E96E4A66283A350B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5AE22047AB34E459651E41AB = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D2C376CC1F87CEC158677BA0 /* Build configuration list for PBXProject "Foldaway" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = A53694D421CFBE9317DC6CFB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A2F349EFE1696B7D35555DC /* XCLocalSwiftPackageReference "FoldawayCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A061ADDCB385EC3352D27471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE22047AB34E459651E41AB /* Foldaway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A778B83F22A04619B531A57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21959CE1D59B77ECC04EABBB /* Assets.xcassets in Resources */,
+				DFFFF8FFBFFDA7F5810EB348 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D3B1B858CE10941CEB03789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1038EB07BC758E94B933CC1 /* FoldController.swift in Sources */,
+				CCD5BC19DA75D20DD165F0D0 /* FoldLayer.swift in Sources */,
+				F6BD3C27D339DE80EF273D8A /* FoldMask.swift in Sources */,
+				646847D32F387EB1142971BB /* FoldOverlayWindow.swift in Sources */,
+				9BEBB7293DC56A2CB136360C /* FoldawayApp.swift in Sources */,
+				A0E9229D25A331C255339A4B /* LidAngleSensor.swift in Sources */,
+				E173EE137829F49DB331404B /* SliderMenuItem.swift in Sources */,
+				D9532DF3E9565EE7F216125E /* StatusMenuController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00B1D4D82BA4CDC84D9BB0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		147C1B88AD4C73DC25D99473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		154181260100A9D2BF3715C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Foldaway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.foldaway;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7CD293C18EC4A05A4EABDA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Foldaway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.foldaway;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7214812641075F646099AB /* Build configuration list for PBXNativeTarget "Foldaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154181260100A9D2BF3715C4 /* Debug */,
+				7CD293C18EC4A05A4EABDA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2C376CC1F87CEC158677BA0 /* Build configuration list for PBXProject "Foldaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B1D4D82BA4CDC84D9BB0D7 /* Debug */,
+				147C1B88AD4C73DC25D99473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5A2F349EFE1696B7D35555DC /* XCLocalSwiftPackageReference "FoldawayCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = FoldawayCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7444C63A9C2EC85B15BF3573 /* FoldawayCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FoldawayCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB02EB77E96E4A66283A350B /* Project object */;
+}

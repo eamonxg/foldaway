@@ -1,0 +1,73 @@
+{
+  "artwork_contains_app_or_folder_icons" : false,
+  "artwork_recess_centers_approximate" : [
+    {
+      "x" : 185,
+      "y" : 160
+    },
+    {
+      "x" : 475,
+      "y" : 160
+    }
+  ],
+  "coordinate_system" : "logical points, top-left origin",
+  "exports" : {
+    "background-no-text.png" : {
+      "dpi" : 72,
+      "height" : 400,
+      "width" : 660
+    },
+    "background-no-text@2x.png" : {
+      "dpi" : 144,
+      "height" : 800,
+      "width" : 1320
+    },
+    "background.png" : {
+      "dpi" : 72,
+      "height" : 400,
+      "width" : 660
+    },
+    "background@2x.png" : {
+      "dpi" : 144,
+      "height" : 800,
+      "width" : 1320
+    }
+  },
+  "finder_background" : "background.tiff (1x and 2x representations)",
+  "finder_icons" : {
+    "app_center" : {
+      "x" : 180,
+      "y" : 160
+    },
+    "applications_center" : {
+      "x" : 480,
+      "y" : 160
+    },
+    "size" : 96
+  },
+  "instruction" : {
+    "center" : {
+      "x" : 330,
+      "y" : 330
+    },
+    "color_srgb" : [
+      0.71999999999999997,
+      0.75,
+      0.81000000000000005,
+      1
+    ],
+    "font_api" : "NSFont.systemFont(ofSize: 14, weight: .medium)",
+    "font_size_points" : 14,
+    "resolved_font" : ".AppleSystemUIFontMedium",
+    "text" : "Drag Foldaway to Applications",
+    "tracking_points" : 0.12
+  },
+  "source_pixels" : {
+    "height" : 977,
+    "width" : 1610
+  },
+  "window" : {
+    "height" : 400,
+    "width" : 660
+  }
+}

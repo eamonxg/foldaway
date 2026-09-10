@@ -1,0 +1,169 @@
+{
+  "background" : "transparent",
+  "format" : "Foldaway menu template assets v1",
+  "frame_count" : 9,
+  "frame_size_px" : [
+    512,
+    512
+  ],
+  "frames" : [
+    {
+      "angle_degrees" : 100,
+      "frame" : 1,
+      "menu_1x" : "menu-18pt\/frame-01.png",
+      "menu_2x" : "menu-18pt\/frame-01@2x.png",
+      "png" : "frames-512\/frame-01.png",
+      "sprite_rect" : [
+        0,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-01.svg"
+    },
+    {
+      "angle_degrees" : 87.5,
+      "frame" : 2,
+      "menu_1x" : "menu-18pt\/frame-02.png",
+      "menu_2x" : "menu-18pt\/frame-02@2x.png",
+      "png" : "frames-512\/frame-02.png",
+      "sprite_rect" : [
+        512,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-02.svg"
+    },
+    {
+      "angle_degrees" : 75,
+      "frame" : 3,
+      "menu_1x" : "menu-18pt\/frame-03.png",
+      "menu_2x" : "menu-18pt\/frame-03@2x.png",
+      "png" : "frames-512\/frame-03.png",
+      "sprite_rect" : [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-03.svg"
+    },
+    {
+      "angle_degrees" : 62.5,
+      "frame" : 4,
+      "menu_1x" : "menu-18pt\/frame-04.png",
+      "menu_2x" : "menu-18pt\/frame-04@2x.png",
+      "png" : "frames-512\/frame-04.png",
+      "sprite_rect" : [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-04.svg"
+    },
+    {
+      "angle_degrees" : 50,
+      "frame" : 5,
+      "menu_1x" : "menu-18pt\/frame-05.png",
+      "menu_2x" : "menu-18pt\/frame-05@2x.png",
+      "png" : "frames-512\/frame-05.png",
+      "sprite_rect" : [
+        2048,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-05.svg"
+    },
+    {
+      "angle_degrees" : 37.5,
+      "frame" : 6,
+      "menu_1x" : "menu-18pt\/frame-06.png",
+      "menu_2x" : "menu-18pt\/frame-06@2x.png",
+      "png" : "frames-512\/frame-06.png",
+      "sprite_rect" : [
+        2560,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-06.svg"
+    },
+    {
+      "angle_degrees" : 25,
+      "frame" : 7,
+      "menu_1x" : "menu-18pt\/frame-07.png",
+      "menu_2x" : "menu-18pt\/frame-07@2x.png",
+      "png" : "frames-512\/frame-07.png",
+      "sprite_rect" : [
+        3072,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-07.svg"
+    },
+    {
+      "angle_degrees" : 12.5,
+      "frame" : 8,
+      "menu_1x" : "menu-18pt\/frame-08.png",
+      "menu_2x" : "menu-18pt\/frame-08@2x.png",
+      "png" : "frames-512\/frame-08.png",
+      "sprite_rect" : [
+        3584,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-08.svg"
+    },
+    {
+      "angle_degrees" : 0,
+      "frame" : 9,
+      "menu_1x" : "menu-18pt\/frame-09.png",
+      "menu_2x" : "menu-18pt\/frame-09@2x.png",
+      "png" : "frames-512\/frame-09.png",
+      "sprite_rect" : [
+        4096,
+        0,
+        512,
+        512
+      ],
+      "svg" : "frames-512\/frame-09.svg"
+    }
+  ],
+  "lid_length_px" : 264,
+  "line_cap" : "round",
+  "line_join" : "round",
+  "menu_base_alignment" : "Fixed pixel-aligned baseline; 15.5 px from top at 1x, 31 px at 2x",
+  "menu_master_view_box" : [
+    64,
+    64,
+    384,
+    384
+  ],
+  "menu_point_size" : [
+    18,
+    18
+  ],
+  "previews_only" : [
+    "previews\/contact-sheet.png",
+    "previews\/fold-animation.gif"
+  ],
+  "rgb" : "#000000",
+  "sprite_size_px" : [
+    4608,
+    512
+  ],
+  "stroke_width_master_px" : 24,
+  "svg_base_end" : [
+    411,
+    386
+  ],
+  "svg_hinge" : [
+    147,
+    386
+  ]
+}

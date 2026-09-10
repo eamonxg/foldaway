@@ -1,0 +1,46 @@
+name: Foldaway
+options:
+  bundleIdPrefix: com.eamon
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+packages:
+  FoldawayCore:
+    path: FoldawayCore
+targets:
+  Foldaway:
+    type: application
+    platform: macOS
+    sources:
+      - path: Foldaway
+    dependencies:
+      - package: FoldawayCore
+    info:
+      path: Foldaway/Info.plist
+      properties:
+        CFBundleDisplayName: Foldaway
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSUIElement: true
+        LSApplicationCategoryType: public.app-category.utilities
+        NSPrincipalClass: NSApplication
+        LSMinimumSystemVersion: "14.0"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.eamon.foldaway
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_HARDENED_RUNTIME: NO
+schemes:
+  Foldaway:
+    build:
+      targets:
+        Foldaway: all
+    run:
+      config: Debug
